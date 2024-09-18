@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="picture"><img src={{pictureSrc}} alt="" /></div>
+  <div class="title">
+    <a (mouseenter)="decorate($event)" (mouseleave)="decorateOff($event)" href=""
+      ><h2>{{title}}</h2></a
+    >
+    <div class="author">
+      <a (mouseenter)="decorate($event)" (mouseleave)="decorateOff($event)" href="https://github.com/la1ni">
+      <img
+        src={{authorImg}}
+        alt="imagem perfil"/>
+      {{author}}
+      </a>
+    </div>
+  </div>
+</div>

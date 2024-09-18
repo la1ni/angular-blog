@@ -1,0 +1,27 @@
+<div class="container-big-card">
+  <div class="picture">
+    <img src={{pictureCover}} alt="placeholder de imagem" />
+  </div>
+  <div class="title">
+    <a
+      (mouseenter)="decorate()"
+      (mouseleave)="decorateOff()"
+      [ngClass]="text"
+      href="https://github.com/la1ni"
+    >
+      <h1 id="title-text">{{ title }}</h1></a
+    >
+  </div>
+  <div class="description">
+    <a
+      (mouseenter)="decorate()"
+      (mouseleave)="decorateOff()"
+      [ngClass]="text"
+      href="https://github.com/la1ni"
+    >
+      <p>
+        {{ description }}
+      </p>
+    </a>
+  </div>
+</div>

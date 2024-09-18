@@ -1,0 +1,19 @@
+.menu-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#title {
+  color: white;
+  font-size: 50px;
+  margin-top: 15px;
+
+}
+
+#caption {
+  color: rgb(235, 208, 173);
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 15px;
+
+}

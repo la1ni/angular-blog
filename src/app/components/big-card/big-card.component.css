@@ -1,0 +1,28 @@
+.container-big-card {
+  width: 400px;
+  height: 500px;
+  margin:10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.picture>img {
+  height: 300px;
+  width: 360px;
+}
+
+.title{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.description > p {
+  color: rgb(238, 228, 213);
+  text-align: justify;
+}
+
+
