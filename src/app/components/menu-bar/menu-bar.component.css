@@ -1,11 +1,24 @@
-
-
-.container > ul{
-  display: flex;
-  flex-direction: row;
+header {
+  margin: 15px;
 }
 
-.container > ul > li{
+header > .container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.voltar {
+  position: absolute;
+  left: 15px;
+}
+
+.icons > ul {
+  align-items: center;
+  display: flex;
+}
+
+.icons > ul > li {
   margin-right: 20px;
   list-style: none;
 }
