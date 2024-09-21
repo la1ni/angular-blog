@@ -1,7 +1,7 @@
 <div class="container">
   <div class="picture"><img src={{pictureSrc}} alt="" /></div>
   <div class="title">
-    <a (mouseenter)="decorate($event)" (mouseleave)="decorateOff($event)" href=""
+    <a (mouseenter)="decorate($event)" (mouseleave)="decorateOff($event)" [routerLink]="['content', idContent]"
       ><h2>{{title}}</h2></a
     >
     <div class="author">

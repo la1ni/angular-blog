@@ -10,6 +10,9 @@ export class SmallCardComponent {
   text: string = ""
 
   @Input()
+  idContent:string = "0"
+
+  @Input()
   title:string = ""
 
   @Input()

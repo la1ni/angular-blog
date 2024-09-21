@@ -10,6 +10,9 @@ import { elementAt } from 'rxjs';
 export class BigCardComponent {
 
   @Input()
+  idContent: string = "0"
+
+  @Input()
   pictureCover:string = ""
 
   @Input()

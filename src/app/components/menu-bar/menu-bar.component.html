@@ -1,9 +1,28 @@
-<div class="container">
-  <ul>
-    <li><a href="https://www.linkedin.com/in/mariana-lainara-silva/">Youtube</a></li>
-    <li><span>•</span></li>
-    <li><a href="https://www.linkedin.com/in/mariana-lainara-silva/">Instagram</a></li>
-    <li><span>•</span></li>
-    <li><a href="https://www.linkedin.com/in/mariana-lainara-silva/">Loja virtual</a></li>
-  </ul>
-</div>
+<header>
+  <div class="container">
+    <div *ngIf="rotaAtual !== '/'"  class="voltar">
+      <a [routerLink]="['']"> <<<< Voltar </a>
+    </div>
+    <div class="icons">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/mariana-lainara-silva/"
+            >Youtube</a
+          >
+        </li>
+        <li><span>•</span></li>
+        <li>
+          <a href="https://www.linkedin.com/in/mariana-lainara-silva/"
+            >Instagram</a
+          >
+        </li>
+        <li><span>•</span></li>
+        <li>
+          <a href="https://www.linkedin.com/in/mariana-lainara-silva/"
+            >Loja virtual</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

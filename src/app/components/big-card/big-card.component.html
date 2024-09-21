@@ -7,7 +7,7 @@
       (mouseenter)="decorate()"
       (mouseleave)="decorateOff()"
       [ngClass]="text"
-      href="https://github.com/la1ni"
+      [routerLink]="['content', idContent]"
     >
       <h1 id="title-text">{{ title }}</h1></a
     >
@@ -17,7 +17,7 @@
       (mouseenter)="decorate()"
       (mouseleave)="decorateOff()"
       [ngClass]="text"
-      href="https://github.com/la1ni"
+      [routerLink]="['content', idContent]"
     >
       <p>
         {{ description }}
